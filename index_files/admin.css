@@ -1,1 +1,2677 @@
+/* css reset */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+div, dl, dt, dd, form, h1, h2, h3, h4, h5, h6, img, ol, ul, li, table, th, td, p, span, a {
+    border: 0;
+}
+
+img, input {
+    border: none;
+    vertical-align: middle;
+}
+
+
+body {
+    font-family: Tahoma, Arial, Helvetica, "微软雅黑";
+    font-size: 18px;
+    background: #F5F6FA;
+    color: #333;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+th, td, input {
+    font-size: 14px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+/* 头部 */
+
+.box {
+    width: 100%;
+    background: white;
+}
+
+.header {
+    padding: 25px 0;
+    width: 100%;
+    margin-left: 0%;
+    box-shadow: 0px 2px 5px 0px rgba(133,133,133,0.1);
+}
+
+    .header .title {
+        text-align: center;
+        height: 44px;
+        line-height: 44px;
+        font-size: 24px;
+        top: 6px;
+        left: 1px;
+    }
+
+    .header .agent {
+        height: 44px;
+        line-height: 44px;
+        text-align: right;
+        position: relative; /*cursor: pointer;*/
+    }
+
+.top_drop {
+    display: none;
+    position: absolute;
+    right: -25px;
+    top: 70px;
+    background: #ccc;
+    z-index: 999;
+    width: 250px;
+    padding: 20px 0;
+}
+
+.person_but a {
+    display: block;
+    width: 192px;
+    height: 36px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 36px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+.header .agent img {
+    vertical-align: text-bottom;
+}
+
+.index .setPage {
+    width: 1105px;
+    margin: 86px auto;
+}
+
+.index .setPage-fl {
+    float: left;
+    width: 50%;
+}
+
+.index .setPage-fr {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 127px 38px 0 38px;
+    box-sizing: border-box;
+}
+
+    .index .setPage-fr span {
+        font-weight: 500;
+        color: rgba(68,75,89,1);
+        margin-right: 23px;
+        float: left;
+    }
+
+.shuru {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+    .shuru input {
+        width: 100%;
+        height: 58px;
+        border: 1px #ddd solid;
+        text-indent: 1em;
+    }
+
+.index .index-tab {
+    padding-left: 144px;
+}
+
+    .index .index-tab .check {
+        color: #EB433A;
+    }
+
+        .index .index-tab .check:after {
+            content: " ";
+            display: block;
+            width: 27px;
+            height: 3px;
+            background: rgba(235,67,58,1);
+            border-radius: 2px;
+            margin: 16px auto;
+        }
+
+.index-btn {
+    width: 222px !important;
+    height: 57px !important;
+    background: #FB6765;
+    border-radius: 5px;
+    margin-top: 35px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fanwei .layui-input-inline {
+    width: 123px;
+}
+
+.fanwei .inputSet {
+    padding: 0 !important;
+}
+
+.dengji .layui-input-inline {
+    width: 97%;
+}
+
+.dengji .inputSet input {
+    width: 100% !important;
+}
+
+.index .setPage-content {
+    height: 464px;
+    background: rgba(251,251,253,1);
+    box-shadow: 0px 2px 5px 0px rgba(133,133,133,0.1);
+    border-radius: 10px;
+}
+
+.index .index_table {
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.index_table thead tr th {
+    background: #fbfbfd;
+}
+
+.index_table tbody tr td {
+    background: #fff;
+}
+
+/*.foot-box {
+    background: rgba(255,255,255,1);
+    padding-top: 31px;
+    padding-bottom: 13px;
+    box-sizing: border-box;*/ /*position: fixed; 	bottom: 0px; 	left: 0px;*/
+/*width: 100%;
+}*/
+
+.foot-box {
+    background: #DBDBDB;
+    padding-top: 31px;
+    padding-bottom: 25px;
+    box-sizing: border-box; /*position: fixed; 	bottom: 0px; 	left: 0px;*/
+    width: 1240px;
+    margin: auto;
+}
+
+.foot-content {
+    width: 558px;
+    margin: 0 auto;
+}
+
+    .foot-content img {
+        float: left;
+        margin-right: 24px;
+    }
+
+    .foot-content p {
+        /*float: left;*/
+        margin-top: 6px;
+    }
+
+        .foot-content p span {
+            font-size: 15px;
+            color: rgba(51,51,51,1);
+            margin-right: 25px;
+        }
+
+
+.index-select {
+    margin-bottom: 20px;
+}
+
+    .index-select .labelSet {
+        width: 85px !important;
+        padding-right: 0 !important;
+    }
+
+    .index-select .inputSet {
+        width: 390px !important;
+        background: none !important;
+    }
+
+.index-select1 .labelSet {
+    width: 85px !important;
+    padding-right: 0 !important;
+}
+
+.index-select1.layui-col-md4 {
+    width: 390px !important;
+}
+
+.index-select1 .layui-input-inline {
+    width: 91% !important;
+}
+
+.dubu-p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 48px;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.index-zhuce input {
+    border: 1px #ddd solid;
+    width: 80%;
+    height: 33px;
+}
+
+.index-zhuce tr {
+    border-bottom: 1px #ddd solid;
+}
+
+    .index-zhuce tr td:nth-child(1) {
+        text-align: right;
+    }
+
+    .index-zhuce tr td:nth-child(2) {
+        text-align: left;
+    }
+
+.jiaji .layui-edge {
+    right: 100px;
+}
+
+.index-zhuce .required::after {
+    top: 18px;
+    right: 10px;
+}
+
+.hengx {
+    display: inline-block;
+    width: 26%;
+}
+
+    .hengx .layui-form-select .layui-input {
+        padding: 0;
+    }
+
+    .hengx input {
+        width: 100% !important;
+    }
+
+/* 登录弹窗 */
+.SignInTab {
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
+
+    .SignInTab span {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .SignInTab .check {
+        color: #EB433A;
+    }
+
+        .SignInTab .check:after {
+            content: " ";
+            display: block;
+            width: 27px;
+            height: 3px;
+            background: rgba(235,67,58,1);
+            border-radius: 2px;
+            margin: 10px auto;
+        }
+
+.layerSignIn .layui-input-block {
+    border: 1px #dddddd solid;
+    margin-left: 100px;
+}
+
+    .layerSignIn .layui-input-block input {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+        text-indent: 10px;
+    }
+
+.layerSignIn .layui-form-label {
+    width: 60px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1920px) {
+    .index .setPage {
+        width: 786px;
+        margin: 30px auto;
+    }
+
+    .index .setPage-fl img {
+        width: 393px;
+    }
+
+    .index .setPage-fr {
+        padding: 80px 20px 0 20px;
+    }
+
+    .index .setPage-content {
+        height: 333px;
+    }
+
+    .index .index-tab {
+        padding-left: 66px;
+    }
+
+    .index-btn {
+        width: 158px !important;
+        height: 41px !important;
+        margin-top: 14px;
+    }
+
+    .index-select1.layui-col-md4 {
+        width: 236px !important;
+    }
+
+    .index-select .inputSet {
+        width: 267px !important;
+        background: none !important;
+    }
+
+    /*.foot-box {
+        padding-top: 10px;
+    }*/
+
+    .foot-box {
+        padding-top: 25px;
+    }
+
+    .index .index_table {
+        margin-top: 20px;
+    }
+
+    .index-select {
+        margin-bottom: 10px;
+    }
+
+    .fanwei .inputSet {
+        padding: 0;
+    }
+
+    .fanwei .layui-input-inline {
+        width: 85px !important;
+    }
+
+    .dengji .layui-input-inline {
+        width: 100% !important;
+    }
+
+    .fanwei .inputSet input {
+        width: 100% !important;
+    }
+
+    .foot-content img {
+        height: 50px;
+        margin-top: 5px;
+    }
+
+    .foot-content p span {
+        font-size: 13px;
+    }
+
+    .foot-content {
+        /*padding-left: 50px;*/
+    }
+}
+
+.gengai-span span {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.gengai-xuanz {
+    color: red;
+}
+
+.xiala .layui-form-select {
+    width: 216px;
+    float: left;
+}
+
+.xiala-tc .layui-form-select {
+    width: 175px;
+    float: left;
+}
+
+.shengqing {
+    width: 79% !important;
+}
+
+.setPage .shengqing input {
+    width: 88% !important;
+    float: left;
+}
+
+.setPage .shengqing textarea {
+    width: 88% !important;
+    float: left;
+}
+
+.xiala .layui-form-select input {
+    width: 220px !important;
+    height: 38px !important;
+    line-height: 38px !important;
+}
+
+.jiachang .layui-form-select {
+    width: 316px;
+    float: left;
+}
+
+    .jiachang .layui-form-select input {
+        width: 320px !important;
+        height: 38px !important;
+        line-height: 38px !important;
+    }
+
+.shengqing .fanwei {
+    float: right;
+    margin-left: 20px;
+    margin-top: 7px;
+    cursor: pointer;
+    display: block;
+    background: #FFF1F1;
+    color: #F74A40 !important;
+    padding: 3px 6px !important;
+}
+
+.tancRange .box-float {
+    width: 100%;
+}
+
+    .tancRange .box-float .labelSet {
+        width: 190px;
+    }
+
+.layui-form-checked[lay-skin=primary] i {
+    border-color: #EB433A !important;
+    background-color: #EB433A;
+    zoom: 0.8;
+}
+
+.layui-form-checkbox[lay-skin=primary] i {
+    zoom: 0.8;
+}
+
+.qingk {
+    border: none;
+    float: right;
+    background: #FFF1F1;
+    color: #F74A40 !important;
+    font-size: 14px;
+}
+
+.teshu input {
+    width: 100% !important;
+}
+
+/* 测绘资质管理 */
+.content {
+    width: 96%;
+    margin-left: 2%;
+}
+
+    .content .left {
+        font-size: 14px;
+        margin-top: 20px;
+        float: left;
+    }
+
+    .content .btn-left {
+        font-size: 14px;
+        float: left;
+        padding-right: 15px;
+    }
+
+    .content .left span {
+        float: left;
+        position: relative;
+        top: 0px;
+        cursor: pointer;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content .left div {
+        float: left;
+        display: inline-block;
+    }
+
+    .content .left .prev, .content .left .next {
+        width: 32px;
+        height: 24px;
+        float: left;
+        position: relative;
+        top: 8px;
+        cursor: pointer;
+    }
+
+    .content .left .prev {
+        margin: -2px 10px 0 0;
+    }
+
+    .content .left .next {
+        margin-left: 10px;
+        margin-top: -2px;
+    }
+
+    .content .left .layui-form-select {
+        display: inline-block;
+    }
+
+    .content .left .layui-input {
+        width: 285px;
+        height: 38px;
+        background: #fff;
+        border-radius: 20px;
+        border: none;
+        padding: 0 16px;
+        margin: 0 10px;
+    }
+
+    .content .left .layui-form-select .layui-edge {
+        border-top-color: #999999;
+        right: 20px;
+    }
+
+    .content .right {
+        float: right;
+        margin-top: 20px;
+    }
+
+    .content .btn-right {
+        float: right;
+    }
+
+    .content .right .save {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: url('../images/save.png') no-repeat 100% 100%;
+        position: relative;
+        top: 1.5px;
+    }
+
+    .content .right .submit {
+        display: inline-block;
+        width: 14px;
+        height: 15px;
+        background: url('../images/submit.png') no-repeat 100% 100%;
+        position: relative;
+        top: 1.5px;
+    }
+
+    .content .right .baocun {
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        background: url('../images/baocun.png') no-repeat 100% 100%;
+        position: relative;
+        top: 2.5px;
+    }
+
+    .content .right .add1 {
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        background: url('../images/add1.png') no-repeat 100% 100%;
+        position: relative;
+        top: 2.5px;
+    }
+
+    .content .right .rending {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url('../images/rending.png') no-repeat 100% 100%;
+        position: relative;
+        top: 3.5px;
+    }
+
+    .content .right .return {
+        display: inline-block;
+        width: 14px;
+        height: 13px;
+        background: url('../images/return.png') no-repeat 100% 100%;
+    }
+
+tbody tr td {
+    /*font-size: 16px !important;*/
+    color: #777777 !important;
+}
+
+/* table设置 */
+.layui-table {
+    /*width: 96%;
+    margin: 20px 0 0 2%;
+    border-radius: 4px;*/
+    width: 96%;
+    margin: 15px auto;
+}
+
+    .layui-table td, .layui-table th {
+        text-align: center;
+        line-height: 26px;
+        font-size: 14px;
+        padding: 10px;
+        letter-spacing: 1px;
+    }
+
+    .layui-table th {
+        /*color: #333333;*/
+        color: #777777;
+        font-weight: 600;
+    }
+
+    .layui-table td {
+        position: relative;
+        padding: 5px;
+    }
+
+        /* td 中包含的徽章样式 */
+        .layui-table td .layui-badge {
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+    .layui-table tbody tr:hover, .layui-table thead tr, .layui-table-click, .layui-table-header, .layui-table-hover, .layui-table-mend, .layui-table-patch, .layui-table-tool, .layui-table-total, .layui-table-total tr, .layui-table[lay-even] tr:nth-child(even) {
+        background: #fff;
+    }
+
+tbody tr:nth-child(odd) {
+    background: #FBFBFD;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+/* 重写按钮样式<button></button> */
+button {
+    width: 80px !important;
+    height: 34px !important;
+    line-height: 34px !important;
+    border-radius: 10px;
+}
+
+.width102 {
+    width: 102px !important;
+}
+
+.layui-btn-danger {
+    background: #FB6765 !important;
+}
+
+.layui-btn-warm {
+    background: #F0AD67 !important;
+}
+
+.layui-btn .layui-icon {
+    font-size: 14px;
+}
+
+.layui-btn-notAccept {
+    background: #FB6765 !important;
+    width: 100px !important;
+}
+
+/* 单选框设置 */
+.layui-form-radio > i {
+    color: #EB433A;
+    zoom: 0.8;
+}
+
+    .layui-form-radio > i:hover {
+        color: #EB433A;
+    }
+
+/* input设置 */
+input::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #AEAEAE;
+}
+
+.getDate, .getInfo {
+    height: 36px;
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #777777;
+}
+
+.getDate {
+    width: 203px;
+}
+
+.getInfo {
+    width: 303px;
+}
+
+.date {
+    position: relative;
+    left: -30px;
+}
+
+/* 单位信息页 */
+.introduce {
+    width: 222px;
+    height: 57px;
+    margin: 45px auto;
+    background: #EB433A;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 57px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+    .mask .content {
+        width: 700px;
+        height: 564px;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 10px;
+    }
+
+        .mask .content .top {
+            height: 56px;
+            line-height: 56px;
+            background: #4C4743;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+            .mask .content .top span {
+                font-size: 17px;
+                color: #fff;
+                margin-left: 20px;
+            }
+
+            .mask .content .top img {
+                float: right;
+                position: relative;
+                top: 20px;
+                right: 20px;
+                width: 14px;
+                height: 14px;
+                cursor: pointer;
+            }
+
+.intro p {
+    width: 90%;
+    margin: 30px 0 20px 5%;
+    font-size: 15px;
+    line-height: 2;
+    text-align: justify;
+}
+
+/* 人员信息添加 */
+.perInfo_title {
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+/* 上传附件 */
+.uploadFile {
+    display: inline-block;
+    width: 67px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    background: #EB433A;
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    top: 15px;
+    left: 32px;
+    cursor: pointer;
+}
+
+/* 工作列表页 */
+.tabList li {
+    float: left;
+    margin-right: 38px;
+    width: 121px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px 0px rgba(133, 133, 133, 0.1);
+    cursor: pointer;
+    position: relative;
+}
+
+    /* 工作列表左上角徽章样式（工作数量） */
+    .tabList li .layui-badge {
+        border-radius: 30px;
+        position: absolute;
+        top: 5px;
+        left: 82px;
+    }
+
+#Link_WorkTodo, #Link_Working, #Link_Worked {
+    display: block;
+    margin-left: -10px;
+}
+
+.tabList li.active {
+    background: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(133, 133, 133, 0.1);
+    color: #EB433A;
+}
+
+.tabList i {
+    font-style: normal;
+}
+
+/*.layui-badge {
+    border-radius: 30px;
+    margin-left: 3px;
+    position: relative;
+    top: -2px;
+}*/
+
+.layui-bg-gray {
+    color: white !important;
+    background-color: #b3b3b3 !important;
+}
+
+/* 徽章 - 批准 */
+.layui-bg-pizhun {
+    background-color: #67c23a !important;
+}
+/* 徽章 - 审批中 */
+.layui-bg-spz {
+    background-color: #79bbff !important;
+}
+/* 徽章 - 补正材料 */
+.layui-bg-bzcl {
+    background-color: #ffbd79 !important;
+}
+/* 通过 */
+.layui-bg-pass {
+    background-color: #de3b33 !important;
+}
+/* 不通过 */
+.layui-bg-nopass {
+    background-color: #ffbd79 !important;
+}
+
+
+
+/* label - 样式 */
+/* 通用 */
+.label-pass, .label-pizhun, .label-nopass, .label-bzcl, .label-other, .label-spz, .label-error, .label-warning, .label-info, .label-back {
+    font-weight: 600;
+}
+/* 通过、批准 */
+.label-pass, .label-pizhun {
+    color: #67C23A;
+}
+/* 不通过、补正材料、退回 */
+.label-nopass, .label-wtj, .label-back {
+    color: #F56C6C;
+}
+/* 未审核 */
+.label-other {
+    color: #E6A23C;
+}
+/* 审批中 */
+.label-spz {
+    color: #1e9fff
+}
+
+.label-error {
+    color: #F56C6C
+}
+
+.label-warning {
+    color: #E6A23C
+}
+
+.label-info {
+    color: gray
+}
+
+
+
+
+/* 列表页 */
+.listPage_content {
+    width: 96%;
+    margin: 20px 0 0 2%;
+    box-shadow: 0px 2px 5px 0px rgba(133, 133, 133, 0.1);
+    background: #FCFCFD;
+    border-radius: 4px;
+    padding-top: 10px;
+}
+
+    .listPage_content .layui-form-label {
+        font-size: 14px;
+    }
+
+    .listPage_content .layui-input {
+        border: 1px solid #EEEEEE;
+        border-radius: 20px;
+    }
+
+.layui-input-inline {
+    position: relative;
+}
+
+.listPage_content .list_date {
+    width: 15px;
+    height: 16px;
+    position: absolute;
+    right: 8px;
+    top: 11px;
+}
+
+.search {
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    position: relative;
+    padding: 15px 0;
+    background: #FCFCFD;
+}
+
+    .search span {
+        cursor: pointer;
+    }
+
+        .search span img {
+            width: 11px;
+            height: 10px;
+            margin-left: 14px;
+            position: relative;
+            top: -2px;
+        }
+
+.query {
+    width: 121px;
+    height: 52px;
+    line-height: 52px;
+    background: url('../images/btn_bg.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.queryBox {
+    height: 52px;
+    line-height: 52px;
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    font-size: 35px;
+}
+
+.info_table .transact, .info_table .approve, .info_table .orange, .info_table .success, .info_table .greede {
+    padding: 1px 9px !important;
+    cursor: pointer;
+    margin: 1px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.transact a {
+    color: #F74A40;
+}
+
+.info_table .success {
+    background: #84BF96 !important;
+    color: #FFF !important;
+}
+
+.info_table .transact {
+    /*background: #FFEFEE !important;
+    color: #F74A40 !important;
+    display: inline-block;
+    margin: 1px;*/
+
+    background: #FB6765;
+    color: white !important;
+}
+
+.info_table .approve {
+    background: #E3EAFF !important;
+    color: #4074F7 !important;
+}
+
+.info_table .orange {
+    background: #FFB800 !important;
+    color: white !important;
+}
+
+.info_table .greede {
+    background: #72f322;
+    color: #fff;
+}
+
+
+.guaqi {
+    padding: 3px 6px !important;
+    cursor: pointer;
+    background: #fbf1e7 !important;
+    color: #eea75c !important;
+}
+
+.huifu {
+    padding: 3px 6px !important;
+    cursor: pointer;
+    background: #c8f0c9 !important;
+    color: #0bb613 !important;
+}
+
+.yanqi {
+    padding: 3px 6px !important;
+    cursor: pointer;
+    background: #E3EAFF !important;
+    color: #4074F7 !important;
+}
+
+/* select下拉框设置 */
+.layui-form-select .layui-input, .layui-input {
+    font-size: 14px;
+}
+
+.layui-form-select dl dd {
+    font-size: 14px;
+}
+
+/*    .layui-form-select dl dd::after {
+        content: "（修改）"
+    }*/
+
+.layui-form-select .layui-edge {
+    border-top-color: #EB433A;
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color: #EB433A;
+}
+
+
+
+/* 表单设置 */
+.setPage {
+    width: 96%;
+    margin: 20px 0 30px 2%;
+}
+
+    .setPage .box {
+        box-shadow: 0px 2px 5px 0px rgba(133, 133, 133, 0.1);
+        border-radius: 4px;
+        position: relative;
+    }
+
+    .setPage .layui-row {
+        height: 47px;
+        line-height: 47px;
+    }
+
+    .setPage .labelSet {
+        background: #F9FAFC;
+        font-size: 16px;
+        color: #777777;
+        padding-right: 24px;
+        text-align: right; /*height: 47px;*/
+    }
+
+    .setPage .inputSet {
+        background: #fff;
+        font-size: 16px;
+        color: #333;
+        /*padding: 0 15px;*/
+        padding: 10px;
+        float: right;
+        position: relative;
+    }
+
+        .setPage .inputSet input {
+            width: 100%; /*width: 95%;*/ /* height:47px;*/
+        }
+
+        .setPage .inputSet::-webkit-input-placeholder {
+            color: #AEAEAE;
+        }
+
+        .setPage .inputSet:-ms-input-placeholder {
+            font-size: 16px;
+            color: #AEAEAE !important;
+        }
+
+.borderBottom {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.quality_title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+
+.layer_content .per .box-float .labelSet {
+    width: 150px;
+}
+
+.setPage .introduce {
+    display: block;
+    border: none;
+}
+
+/* 质量、安全 */
+.qualityPage .inputSet input {
+    color: red;
+}
+
+.quality .per .box-float .inputSet {
+    width: 30%;
+}
+
+.quality .per .box-float .labelSet {
+    width: 70%;
+}
+
+/* 上传图片 */
+.photo {
+    width: 180px;
+    height: 227px;
+    position: absolute;
+    top: 37px;
+    right: 1px;
+    background: #fff;
+    cursor: pointer;
+}
+
+    .photo p {
+        width: 70%;
+        height: 90%;
+        margin: 5% 0 0 15%;
+        background: #F5F6FA;
+        font-size: 16px;
+        color: #999999;
+        position: relative;
+    }
+
+        .photo p span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 65px;
+            height: 45px;
+        }
+
+.height226 {
+    height: 226px;
+    top: 36px;
+    right: 0px;
+}
+
+.layui-form-select dl {
+    left: 11px;
+    min-width: 92%;
+}
+
+#sltArea dl {
+    top: auto !important;
+    bottom: 35px !important;
+}
+
+/* 分页 */
+.paging_box {
+    width: 96%;
+    margin-left: 2%;
+}
+
+    .paging_box .paging {
+        float: right;
+        margin-top: 16px;
+    }
+
+        .paging_box .paging li {
+            float: left;
+            width: 29px;
+            height: 29px;
+            border: 1px solid #807B77;
+            border-radius: 5px;
+            margin-left: 11px;
+            text-align: center;
+            line-height: 29px;
+            font-size: 15px;
+            color: #807B77;
+            cursor: pointer;
+        }
+
+            .paging_box .paging li.active {
+                background: #807B77;
+                color: #fff;
+            }
+
+.layui-nav .layui-nav-item {
+    width: 102px;
+    display: inline-block;
+    line-height: 40px !important;
+}
+
+.layui-nav-child {
+    width: 132px;
+}
+
+.layui-nav .layui-nav-more {
+    right: 10px;
+    top: 40%;
+    border-style: none;
+    background: url('../images/right-arrow.png') no-repeat 100% 100%;
+    width: 14px;
+    height: 10px;
+}
+
+.layui-nav .layui-this::after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed::after {
+    background: none;
+}
+
+.citybox {
+    width: 220px;
+    height: 280px;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: absolute;
+    top: 42px;
+    left: 12px;
+    z-index: 99;
+    display: none;
+    overflow: auto;
+}
+
+.maskbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 88;
+    display: none;
+}
+
+.sousuo .layui-nav-more {
+    right: 10px;
+    top: 37%;
+    border-style: none;
+    background: url('../images/sousuo.png') no-repeat 100% 100%;
+    width: 14px;
+    height: 14px;
+}
+
+.layui-layer {
+    border-radius: 10px !important;
+    /*border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;*/
+}
+
+.layer_title {
+    height: 56px;
+    line-height: 56px;
+    background: #4C4743;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+    .layer_title .title {
+        margin-left: 30px;
+        font-size: 17px;
+    }
+
+    .layer_title .cue {
+        font-size: 14px;
+        color: #fff;
+        margin-left: 28px;
+    }
+
+    .layer_title img {
+        width: 14px;
+        height: 14px;
+        float: right;
+        position: relative;
+        top: 21px;
+        right: 21px;
+        cursor: pointer;
+    }
+
+.layer_content {
+    width: 98%;
+    margin: 10px 0 10px 1%;
+}
+
+    .layer_content .left {
+        width: 204px;
+        height: 459px;
+        border: 1px solid #DDDDDD;
+        overflow-y: scroll;
+    }
+
+    .layer_content .right {
+        width: 450px;
+        height: 459px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+        .layer_content .right .layui-table {
+            margin: 0 0 0 20px;
+            width: 96%;
+        }
+
+            .layer_content .right .layui-table tr {
+                height: 43px;
+            }
+
+    .layer_content .query {
+        top: 20px;
+        left: 289px;
+    }
+
+    .layer_content .layui-form-radio {
+        margin: 0;
+        line-height: 0;
+    }
+
+        .layer_content .layui-form-radio > i {
+            color: #cccccc;
+        }
+
+    .layer_content .fileBox {
+        margin-left: 20px;
+    }
+
+        .layer_content .fileBox > div {
+            width: 190px;
+            height: 200px;
+            border: 1px solid #EEEEEE;
+            float: left;
+            margin: 0 20px 20px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .layer_content .fileBox .file {
+            width: 180px;
+            height: 150px;
+            margin-top: 10px;
+        }
+
+        .layer_content .fileBox .imgClose {
+            width: 25px;
+            height: 25px;
+            background: #EB433A;
+            color: #fff;
+            text-align: center;
+            line-height: 25px;
+            position: absolute;
+            top: 1px;
+            right: 3px;
+            border-radius: 50%;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+    .layer_content .operate span {
+        display: inline-block;
+    }
+
+    .layer_content .operate {
+        background: #F7F7F7;
+    }
+
+.operate .watch, .operate .delete {
+    width: 78px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.dels {
+    cursor: pointer;
+    padding: 3px 6px;
+    background: #FFEFEE;
+    color: #F74A40; /*margin-left: 10px;*/
+}
+
+.operate .line {
+    color: #E1E1E1;
+}
+
+.chooseFile {
+    position: absolute;
+    top: 31px;
+    left: 220px;
+    width: 117px;
+    height: 35px;
+    background: #FFEFEE;
+    color: #F74A40;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.layer_content .search .start {
+    left: 350px;
+}
+
+.layer_content .tip {
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+    margin-top: 80px;
+}
+
+/* tree节点icon设置 */
+.layui-tree-icon {
+    line-height: 9px;
+}
+
+.layui-form-select dl {
+    /*position: fixed;*/
+}
+
+.layerRecord td, .layerRecord th {
+    border-right: #DDDDDD;
+    text-align: left;
+    text-indent: 30px;
+    color: #333333 !important;
+}
+
+.layerRecord tbody tr:nth-child(odd) {
+    background: none;
+}
+
+.layerRecord tbody tr td:nth-child(odd) {
+    background: rgba(244,244,244,1);
+}
+
+.layerRecord tbody tr td:nth-child(1) {
+    width: 23%;
+}
+
+input[disabled] {
+    color: #333 !important;
+}
+
+.layerBtn button {
+    text-align: center;
+    padding: 0;
+}
+
+.required::after {
+    content: '*';
+    position: absolute;
+    top: 20px;
+    color: red;
+}
+
+.required20::after {
+    content: '*';
+    position: absolute;
+    top: 15px;
+    color: red;
+}
+
+.lvlibiao .approve {
+    background: #FFEFEE !important;
+    color: #F74A40 !important;
+}
+
+.box-float {
+    width: 50%;
+    float: left;
+    background: #F9FAFC; /*border-bottom: 1px solid #EEEEEE;*/
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+    .box-float .labelSet {
+        width: 250px;
+        /*padding-top: 10px;
+        padding-bottom: 10px;*/
+        padding: 0px 15px;
+    }
+
+    .box-float .inputSet {
+        width: 58%;
+        /*padding-top: 10px;
+        padding-bottom: 10px;*/
+        min-height: 52px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    /* .box-float .lab {
+        padding-top: 6px;
+    }*/
+
+    .box-float .lab03 {
+        padding-top: 3px;
+    }
+
+
+    .box-float .labfj {
+        padding-top: 10px;
+    }
+
+    .box-float .lab10 {
+        padding-top: 18px;
+    }
+
+    .box-float .lab22 {
+        padding-top: 22px;
+    }
+
+    .box-float .lab40 {
+        padding-top: 40px;
+    }
+
+.requiredsqs::after {
+    content: '*';
+    position: absolute;
+    top: 25px;
+    color: red;
+}
+
+.required10::after {
+    content: '*';
+    position: absolute;
+    top: 30px;
+    color: red;
+}
+
+.spantip {
+    color: red;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.box-top .box-float .inputSet {
+    width: 70%;
+    text-align: center; /*padding-top:10px;*/
+    padding-bottom: 10px;
+    height: 47px;
+}
+
+    .box-top .box-float .inputSet input {
+        margin-top: 0 !important;
+    }
+
+.box-float-borderBottom {
+    border-bottom: 1px solid #EEEEEE;
+    background: #F9FAFC;
+}
+
+.box-float .approve {
+    background: #FFEFEE !important; /*color: #F74A40 !important;*/
+    color: #F74A40;
+    padding: 8px !important;
+    cursor: pointer;
+}
+
+.per .box-float .labelSet {
+    width: 265px;
+}
+
+.per .box-float .inputSet {
+    width: 56%;
+}
+
+.handle .box-float .labelSet {
+    /*width:200px;*/
+}
+
+.handle .layui-input-inline {
+    /*width: 100%;*/
+}
+
+.handle .layui-select-title input {
+    text-indent: 1px !important;
+}
+
+.handle .layui-form-select dl {
+    left: 1px;
+    min-width: 100%;
+}
+
+/*滚动条*/
+.fileBox::-webkit-scrollbar {
+    width: 0px; /* 滚动条宽度， width：对应竖滚动条的宽度  height：对应横滚动条的高度*/
+    height: 0px;
+}
+
+.fileBox::-webkit-scrollbar-thumb {
+    height: 0px; /* 滚动条滑块长度*/
+    height: 0px;
+}
+
+.fileBox::-zoom-scrollbar-style {
+    width: 0px; /*  滚动条宽度， width：对应竖滚动条的宽度  height：对应横滚动条的高度*/
+    height: 0px;
+}
+
+.fileBox::-zoom-scrollbar-thumb {
+    height: 0px; /*滚动条滑块长度 */
+}
+
+.fileBox {
+    height: 430px;
+    overflow: auto;
+}
+
+.box-top {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+    .box-top .box-float {
+        float: none;
+        border-bottom: 1px solid #EEEEEE;
+        height: 47px;
+        width: 70%;
+    }
+
+        .box-top .box-float .labelSet {
+            width: 250px;
+        }
+
+
+.layerAdd .box-top .box-float {
+    width: 100%;
+}
+
+.layerAdd .layui-form-item {
+    height: auto !important;
+}
+
+.layerAdd .box-float .labelSet {
+    background: #F9FAFC;
+    width: 110px;
+}
+
+.layerAdd .box-float .inputSet {
+    width: 360px;
+}
+
+.layerAdd .box-top {
+    border: 1px solid #EEEEEE;
+}
+
+.layerAdd .box-float .labelSet {
+    height: 47px;
+    line-height: 36px;
+}
+
+.layerAdd .box-top .labelSet {
+    font-size: 15px;
+    text-align: center;
+}
+
+.layerAdd .layui-form-select .layui-input, .layerAdd .layui-input {
+    display: inline-block;
+    width: 256px;
+}
+
+.layerAdd .layui-input-block {
+    width: 256px;
+    border: 1px solid #e6e6e6;
+}
+
+    .layerAdd .layui-input-block input {
+        margin: 10px;
+        font-size: 15px;
+    }
+
+.layerAdd .box-top .box-float .inputSet .layui-input {
+    width: 216px;
+    margin-top: -5px;
+}
+
+.Qua .box-float {
+    width: 100%;
+}
+
+    .Qua .box-float .inputSet {
+        width: 77%;
+    }
+
+/*图片预览*/
+.watch-img {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    padding-top: 50px;
+    background: #000000;
+}
+
+    .watch-img img {
+        width: 90%;
+    }
+
+.query #Search_Button {
+    display: block;
+}
+
+.layui-laydate-content tr .layui-laydate .layui-this {
+    background-color: #ED5E56 !important;
+}
+
+/*个人设置*/
+.Setup .layui-input {
+    width: 120px !important;
+    height: 45px !important;
+    border-radius: 0% !important;
+    background: rgba(0,0,0,-0.9) !important;
+    margin: 0 !important;
+}
+
+.Setup .layui-form-select dl {
+    left: 1px;
+    min-width: 99%;
+}
+
+.Setupfl .tabList li.active {
+    color: #333;
+}
+
+.Setup-list .box-float {
+    width: 100%;
+}
+
+    .Setup-list .box-float .labelSet {
+        width: 30%;
+        height: 60px;
+        line-height: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .Setup-list .box-float .inputSet {
+        width: 60%;
+        height: 60px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+        .Setup-list .box-float .inputSet input {
+            width: 50%;
+            height: 30px;
+            font-size: 15px;
+            /*margin: auto;*/
+            border: 1px #ccc solid;
+            text-indent: 1em;
+            margin-top: 5px;
+        }
+
+.divSelectBox {
+    position: relative;
+}
+
+.SelectButton {
+    position: absolute;
+    top: 17px;
+    right: 20px;
+}
+
+/*资质申请*/
+.zizhi .box-float {
+    /*height: 60px;*/
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+    /* .zizhi .box-float .labelSet {
+        height: 60px;
+        line-height: 40px;
+    }*/
+
+    .zizhi .box-float .inputSet input {
+        height: 36px;
+        font-size: 16px;
+        /* margin: auto; */
+        border: 1px solid #eeeeee;
+        text-indent: 5px;
+    }
+
+
+    .zizhi .box-float .approve {
+        float: left;
+    }
+
+
+.wenben {
+    width: 98%;
+    height: 70px;
+    resize: none;
+    text-indent: 1em;
+    padding-top: 10px;
+}
+
+.zizhi .introduce {
+    border: none;
+    margin: 20px auto;
+    display: block;
+}
+
+/*工作委托*/
+.EntrustMask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+    background: #000000;
+    opacity: 0.5;
+    display: none;
+}
+
+.layerEntrust {
+    height: 630px;
+    width: 700px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999999;
+    margin: 70px auto;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: #fff;
+    display: none;
+}
+
+    .layerEntrust .layer_content {
+        padding: 30px;
+    }
+
+    .layerEntrust .left {
+        width: 209px;
+    }
+
+    .layerEntrust .right {
+        width: 440px;
+    }
+
+.Entrust-top {
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+    .Entrust-top span {
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 36px;
+        margin-right: 10px;
+    }
+
+    .Entrust-top input {
+        width: 218px;
+        height: 30px;
+        background: rgba(255,255,255,1);
+        border: 1px solid rgba(221,221,221,1);
+        border-radius: 15px;
+        margin-right: 10px;
+        text-indent: 1em;
+    }
+
+    .Entrust-top button {
+        width: 79px;
+        height: 31px;
+        background: linear-gradient(-50deg,rgba(230,57,57,1),rgba(238,113,113,1));
+        box-shadow: 0px 5px 15px 0px rgba(220,66,56,0.15);
+        border-radius: 16px;
+        outline: none;
+        border: 0;
+        font-size: 16px;
+        color: #fff;
+    }
+
+.layerEntrust td {
+    text-align: left;
+    font-size: 20px;
+}
+
+.layerEntrust .layui-form-checkbox i {
+    border-left: 1px solid #d2d2d2;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+}
+
+.layerEntrust .layui-form-checkbox {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: none;
+}
+
+.layerEntrust .search {
+    margin-right: 40px;
+}
+
+    .layerEntrust .search button {
+        float: right;
+        width: 65px;
+        height: 29px;
+        background: rgba(227,234,255,1);
+        border-radius: 3px;
+        outline: none;
+        border: 0;
+        color: #4074F7;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+.MessageBarInfo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* 按单位性质分类 */
+.searchBox, .echartsBox {
+    width: 96%;
+    margin-left: 2%;
+    background: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(133, 133, 133, 0.1);
+    border-radius: 4px;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+    .searchBox .layui-input {
+        border: 1px solid #EEEEEE;
+        margin: 0;
+        width: 250px;
+        height: 38px;
+        background: #fff;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .searchBox .selectBox {
+        display: inline-block;
+    }
+
+.qua_box .layui-unselect {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.searchBox span {
+    position: relative;
+    top: 8px;
+}
+
+    .searchBox span:first-child {
+        margin-left: 30%;
+    }
+
+.searchBox span, .searchBox .selectBox {
+    float: left;
+}
+
+.searchBox .property {
+    margin-left: 60px;
+}
+
+.searchBox .layui-form-select .layui-edge {
+    border-top-color: #EB433A;
+    right: 10px;
+}
+
+.echartsBox {
+    margin-bottom: 30px;
+}
+
+#property {
+    width: 1068px;
+    height: 557px;
+    margin: 0 auto;
+}
+
+/* 按资质等级分类 */
+.qua_box {
+    background: none;
+    box-shadow: none;
+    margin: 10px 0 10px 0;
+}
+
+    .qua_box .layui-form-select .layui-input {
+        font-size: 14px;
+        color: #666666;
+    }
+
+.getInfo, .getDate {
+    border-radius: 0;
+}
+
+/* 涉外情况 */
+.shekuang .layui-form-radio {
+    line-height: 35px;
+}
+
+.shekuang .box-float-borderBottom .box-float:nth-child(1) {
+    width: 40%;
+}
+
+    .shekuang .box-float-borderBottom .box-float:nth-child(1) .inputSet {
+        float: left;
+        width: 32%;
+    }
+
+    .shekuang .box-float-borderBottom .box-float:nth-child(1) .labelSet {
+        padding: 10px;
+    }
+
+.shekuang .box-float-borderBottom .box-float:nth-child(2) {
+    width: 60%;
+    float: right;
+}
+
+    .shekuang .box-float-borderBottom .box-float:nth-child(2) .inputSet {
+        float: right;
+        width: 68%;
+    }
+
+    .shekuang .box-float-borderBottom .box-float:nth-child(2) .labelSet {
+        padding: 10px;
+    }
+
+input:disabled {
+    border: 1px solid #EEEEEE;
+    background-color: #F5F5F5;
+    color: #ACA899;
+}
+
+.layui-radio-disbaled > i {
+    color: #EB433A !important;
+}
+
+.fileTip {
+    position: absolute;
+    top: 10px;
+    left: 96px;
+    cursor: pointer;
+}
+
+.wordTip {
+    width: 262px;
+    height: auto; /*border: 1px solid #F2D1D1;*/
+    border: 1px solid #777777;
+    background: #FFF1F1;
+    font-size: 12px; /*color: #EB433A;*/
+    color: #777777;
+    padding: 5px 8px;
+    line-height: 2 !important;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    border-radius: 3px;
+    z-index: 9999;
+}
+
+.fujian .inputSet {
+    text-align: left;
+}
+
+.inputSet .list_date {
+    position: absolute;
+    top: 21px;
+    right: 33px;
+}
+
+.number .getDate {
+    width: 60px;
+}
+
+.trCss {
+    font-weight: bold;
+}
+
+.zzdj .box-float {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+    .zzdj .box-float .inputSet {
+        width: 80%;
+    }
+
+.inputSet textarea {
+    border: 1px solid #dddddd !important;
+    padding: 5px;
+}
+
+.input320 input {
+    width: 320px !important;
+}
+
+.Gender .layui-form-select {
+    /*width: 134px; 	margin-left: 12px;*/
+    width: 295px;
+    margin-left: -2%;
+}
+
+.zhicheng .layui-edge {
+    margin-right: 12px;
+}
+
+/*三列布局表格*/
+.buju3 .box-float .inputSet {
+    width: 50%;
+}
+
+.buju3 .box-float .labelSet {
+    width: 247px;
+}
+
+.buju3 .box-float {
+    float: left;
+    width: 38%;
+}
+
+
+.xingbie label {
+    margin-left: -20px !important;
+}
+
+/* 公共的控件保存按钮 */
+.input-btn {
+    /*width: 80px;
+    height: 40px;
+    margin: 45px auto;
+    background: #FB6765;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;*/
+    width: 100px;
+    height: 45px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+    display: block;
+    margin: 25px auto;
+    background: #fb6765;
+    border-radius: 10px;
+}
+
+    .input-btn:hover {
+        background: #ff3d3b;
+    }
+
+
+/* 公共的边框 */
+.table-bord .layui-table td {
+    border: 1px solid #dddddd;
+}
+
+.table-bord .layui-table th {
+    border: 1px solid #dddddd;
+    font-weight: bold;
+}
+
+/* 公共的 */
+.btn-approve {
+    width: 6% !important;
+    border: none !important;
+    text-indent: 0px !important;
+    padding: 8px !important;
+}
+
+.btn-approve1 {
+    width: 35% !important;
+    height: 35px !important;
+    border: none !important;
+    text-indent: 0px !important;
+    padding: 8px !important;
+}
+
+.tdright .approve {
+    /*background: #E3EAFF !important;
+    color: #4074F7 !important;*/
+    width: 68px;
+    height: 38px;
+    background: #FFEFEE;
+    color: #F74A40;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*右侧提示小框*/
+.inputTip {
+    position: relative;
+    text-align: left !important;
+}
+
+    .inputTip img {
+        /*right: 8px;*/ /*top: 21px;*/
+        top: 17px;
+        left: inherit;
+    }
+
+    .inputTip input {
+        width: 88% !important;
+    }
+
+    .inputTip .wordTip {
+        left: inherit;
+        right: 10px;
+        top: 37px;
+    }
+
+    .inputTip span {
+        top: 21px;
+        left: inherit;
+    }
+
+.tableSet .lits {
+    width: 96%;
+    margin: 53px 0 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lits li {
+    width: 400px;
+    height: 170px;
+    background: rgba(255,255,255,1);
+    box-shadow: -1px 0px 18px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    text-align: center;
+    line-height: 170px; /* margin-right: 30px;*/
+    margin-bottom: 35px;
+}
+
+.lits .active {
+    background: linear-gradient(0deg,rgba(251,99,97,1),rgba(254,152,149,1));
+    box-shadow: -1px 4px 16px 0px rgba(237,94,86,0.76);
+}
+
+    .lits .active span {
+        color: #fff;
+    }
+
+    .lits .active .bgimg {
+        background: url(../images/indeximg2.png);
+        background-size: 100% 100%;
+    }
+
+.lits li span {
+    float: left;
+    margin-left: 27px;
+}
+
+.lits li:hover {
+    background: linear-gradient(0deg,rgba(251,99,97,1),rgba(254,152,149,1));
+    box-shadow: -1px 4px 16px 0px rgba(237,94,86,0.76);
+}
+
+    .lits li:hover span {
+        color: #fff;
+    }
+
+.bgimg {
+    float: left;
+    width: 76px;
+    height: 76px;
+    margin-top: 47px;
+    margin-left: 88px;
+    background: url(../images/indeximg3.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5, .bgimg6, .bgimg7, .bgimg8, .bgimg9 {
+    float: left;
+    width: 76px;
+    height: 76px;
+    margin-top: 47px;
+    margin-left: 88px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+.container {
+}
+
+.td-left {
+    text-align: left !important;
+}
+
+    .td-left textarea {
+        border: 1px solid #dddddd !important;
+    }
+
+.newmenu span {
+    margin-left: 0px !important;
+}
+
+.newmenu a {
+    margin-left: 50px !important;
+}
+
+.layui-btn-primary:hover {
+    border: 1px solid #FB6765;
+    background: #FB6765;
+    color: White;
+}
+
+.layui-layer-btn a {
+    font-size: 14px;
+}
+
+/*.layui-layer layui-layer-iframe {
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+}*/
+
+/*.layui-layer-title {
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    background: #666666 !important;
+    font-weight: 600;
+    color: white !important;
+}
+
+.layui-layer-setwin a cite {
+    background-color: white;
+}*/
+
+/*layui-icon 放大镜*/
+.layui-icon-fdj {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+/*.layui-icon-fdj:hover {
+        color: blue;
+    }*/
+
+.btn-fj-approve {
+    background: #FFEFEE !important;
+    color: #F74A40;
+    padding: 8px !important;
+    cursor: pointer;
+    width: 85px;
+    height: 40px;
+}
+
+.layui-form-radio {
+    line-height: 28px;
+    margin: 5px 0px 5px 20px;
+    /*padding-right: 1px;*/
+    cursor: pointer;
+    font-size: 0;
+}
+
+.tdleft {
+    width: 150px;
+    text-align: right !important;
+}
+
+.tdright {
+    text-align: left !important;
+}
+
+.tdphoto {
+    width: 220px;
+    text-align: center !important;
+}
+
+.layui-laydate-content td.laydate-selected {
+    background-color: #F9837D !important;
+    color: white !important;
+}
+
+.left .layui-form-select dl {
+    top: 38px;
+    max-height: none;
+    z-index: 999;
+}
+
+.layui-form [lay-ignore] {
+    display: inline-block;
+}
+
+/**2022-3-9*/
+
+/*黑行*/
+.BlackRow td {
+    border-collapse: collapse;
+    /*font-size: 14px;*/
+    height: 25px;
+    color: #000 !important;
+}
+/*蓝行*/
+.BlueRow td {
+    border-collapse: collapse;
+    /*font-size: 14px;*/
+    height: 25px;
+    color: #0000FF !important;
+}
+/*黄行*/
+.YellowRow td {
+    border-collapse: collapse;
+    /*font-size: 14px;*/
+    height: 25px;
+    color: #FFFF00 !important;
+}
+/*红行*/
+.RedRow td {
+    border-collapse: collapse;
+    /*font-size: 14px;*/
+    height: 25px;
+    color: #FF0000 !important;
+}
+/*页面通用样式*/
+.RedNotice {
+    font-size: 16px;
+    height: 25px;
+    color: #FF0000 !important;
+    text-indent: 2em;
+}
+
+.OrangeBackgroundNotice, .RedBackgroundNotice, .GreenBackgroundNotice {
+    /* margin: 3px auto;
+    padding-top: 3px;
+    font-size: 14px;
+    height: 25px;
+    color: #fff;
+    line-height: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;*/
+    font-size: 12px;
+    color: #fff;
+    line-height: 26px;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.OrangeBackgroundNotice {
+    background-color: #FFA500;
+}
+
+.RedBackgroundNotice {
+    background-color: #de3b33;
+}
+
+.GreenBackgroundNotice {
+    background-color: #6BC235;
+}
+
+/* 浙江省单位名称校验按钮样式 */
+.btn_check_zj {
+    width: 50px !important;
+    height: 30px !important;
+    line-height: 30px !important;
+    font-size: 14px !important;
+    background-color: deepskyblue;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.layerContent {
+    float: left;
+    margin: 10px 20px 10px 20px;
+    text-align: left;
+    text-indent: 2em;
+    font-size: 16px;
+}
+
+
+.required-tips:before {
+    content: "*";
+    color: red;
+    font-weight: 600;
+    top: 1px;
+    right: 3px;
+    position: relative;
+}
+
+.labelSet label:after {
+    content: '\ff1a'
+}
+
+.tdleft label::after {
+    content: "\ff1a"
+}
+
+/* 办件工作名称后缀 */
+.tips-workname {
+    font-size: 12px;
+    width: auto;
+    min-width: 15px;
+    height: 15px;
+    line-height: 15px;
+    margin: 0 0 0 2px;
+    text-align: center;
+    border-radius: 2px;
+    /*float: right;*/
+    padding: 1px 2px;
+    letter-spacing: 1px;
+}
+
+    .tips-workname.qxj {
+        color: darkblue;
+        border: 1px solid darkblue;
+    }
+
+    .tips-workname.que {
+        color: red;
+        border: 1px solid red;
+    }
+
+    .tips-workname.bu {
+        color: orange;
+        border: 1px solid orange;
+    }
+
+    .tips-workname.zmq {
+        color: orange;
+        border: 1px solid orange;
+        float: none;
+        margin: 0 0 0 10px;
+    }
 
